@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  z-index: 10;
+  height: 8vh;
+  position: relative;
+  bottom: -8px;
+}
+footer > h3 {
+  font-family: "Quicksand", serif;
+}
+.love-icon {
+  position: relative;
+  bottom: -5px;
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+  }
+  footer > h3 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,29 @@
+.endpage {
+  min-height: 82vh;
+  margin-top: 15px;
+  background-color: #f2f0f1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile {
+  margin: 20px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile > h3 {
+  font-family: "Poppins", sans-serif;
+}
+.profile > p {
+  font-family: "Quicksand", sans-serif;
+}
+.profile .profile-image {
+  height: 250px;
+  width: 300px;
+  background-color: white;
+  border-radius: 50%;
+}

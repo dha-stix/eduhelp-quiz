@@ -1,0 +1,45 @@
+.courses {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  min-height: 84vh;
+}
+.heading {
+  margin: 20px 0px;
+  border-bottom: 1px solid black;
+}
+.link {
+  width: 50%;
+}
+.course {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  height: 200px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 20px 0px;
+  color: rgb(30, 30, 141);
+  background-color: #f6f5f6;
+  transition-duration: 0.35s;
+  transition-property: background-color;
+  transition-timing-function: ease-in;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+}
+.course:hover {
+  box-shadow: 4px 5px 3px #ddd;
+}
+
+@media screen and (max-width: 768px) {
+  .courses {
+    width: 100%;
+  }
+  .link {
+    width: 70%;
+  }
+}
